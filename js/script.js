@@ -133,3 +133,24 @@ sumNums(2,2);
 
 //console.log( sumNums(2,2) x)
 var mySum = sumNums(923, 13454);
+
+var apollo = {
+  isdog: true,
+  breed: 'mutt',
+  legs: 4,
+  age: 2,
+  toys: ["Ms Moose", "Bone", "Half a Giraffe"],
+//This is the speak method on the apollo project, in JS methods are functions
+// that are the property of an object
+  speak: function() {
+
+    console.log("woof woof");
+  },
+    SayHiTo: function(name) {
+      console.log("Hi" + name + "woof woof"      )
+    }
+
+  
+};
+// this calls the speak method on the apollo Objects
+apollo.speak();
